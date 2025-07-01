@@ -1,0 +1,27 @@
+# Rust build files
+target/
+
+# Node.js modules
+ts/node_modules/
+
+# Wallet files (optional – ignore if you're using secrets)
+**/*-wallet.json
+
+# Build caches
+*.tsbuildinfo
+*.log
+
+# TypeScript output (if any)
+*.js
+*.js.map
+
+# Yarn/Node
+.yarn/
+.yarnrc.yml
+yarn.lock
+
+# VSCode
+.vscode/
+
+# OS junk
+.DS_Store
