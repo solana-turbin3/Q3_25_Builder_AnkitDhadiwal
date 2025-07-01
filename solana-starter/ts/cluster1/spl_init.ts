@@ -19,6 +19,3 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
     }
 })()
 
-
-// Mint Address : Dn6j5RkQ3ZgQrPQPYQub2Tq6N6m7NL9epb8jqb8eUzKU
-//https://turbine-solanad-4cde.devnet.rpcpool.com/9a9da9cf-6db1-47dc-839a-55aca5c9c80a

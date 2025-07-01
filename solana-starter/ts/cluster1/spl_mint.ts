@@ -29,6 +29,3 @@ const mint = new PublicKey("F8uuLx45WEvkj6b3ScQqhh4xiFYgPr7AbhW6Df6XbAjn");
 })()
 
 
-// ATA : 9WpigzZC9uDJ8WGprk4bXAmTnyi3QhyyL9DBKoAtakhJ
-// Mint txid: 33kD2X7DLnYEdb7f9LdKu7GZTvSTC8dZuY6VQbCGfbDBmZavSACaGvuTDiGHovkoQ1ge6d5tXsLwv6GtzkGY5KUj
-// Mint address : F8uuLx45WEvkj6b3ScQqhh4xiFYgPr7AbhW6Df6XbAjn

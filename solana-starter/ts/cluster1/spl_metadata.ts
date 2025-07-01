@@ -57,5 +57,3 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
     }
 })();
 
-
-//5xYeJUpRbbatXvjns4necDULXiBynu45XcT5xFjkZwKHT2DfUbnAt8NUw7dDu3sK4A8Z4vRUL3uhqSBL1gthDtXH
