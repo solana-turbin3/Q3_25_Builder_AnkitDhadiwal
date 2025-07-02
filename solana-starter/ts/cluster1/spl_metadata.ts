@@ -10,7 +10,7 @@ import { createSignerFromKeypair, signerIdentity, publicKey } from "@metaplex-fo
 import { bs58 } from "@coral-xyz/anchor/dist/cjs/utils/bytes";
 
 // Define our Mint address
-const mint = publicKey("F8uuLx45WEvkj6b3ScQqhh4xiFYgPr7AbhW6Df6XbAjn")
+const mint = publicKey("GumGYJqy1bixo3W1S67UdVcxzbWRMoUTAWfY42sdjSmM")
 
 // Create a UMI connection
 const umi = createUmi('https://api.devnet.solana.com');
@@ -27,9 +27,9 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
         }
 
         let data: DataV2Args = {
-            name: "Ankit",
-            symbol: "ASD",
-            uri: "https://www.ankit.com",
+            name: "Bharti General Store",
+            symbol: "BGS",
+            uri: "https://www.bgs.com",
             sellerFeeBasisPoints: 500,
             creators: null,
             collection: null,

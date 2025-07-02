@@ -9,10 +9,10 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 const commitment: Commitment = "confirmed";
 const connection = new Connection("https://api.devnet.solana.com", commitment);
 
-const token_decimals = 1_000_000n;
+const token_decimals = 1000_000_000n;
 
 // Mint address
-const mint = new PublicKey("F8uuLx45WEvkj6b3ScQqhh4xiFYgPr7AbhW6Df6XbAjn");
+const mint = new PublicKey("GumGYJqy1bixo3W1S67UdVcxzbWRMoUTAWfY42sdjSmM");
 
 (async () => {
     try {

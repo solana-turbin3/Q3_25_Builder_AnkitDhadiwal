@@ -17,29 +17,44 @@ umi.use(signerIdentity(signer));
         // Follow this JSON structure
         // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 
-        // const image = ???
-        // const metadata = {
-        //     name: "?",
-        //     symbol: "?",
-        //     description: "?",
-        //     image: "?",
-        //     attributes: [
-        //         {trait_type: '?', value: '?'}
-        //     ],
-        //     properties: {
-        //         files: [
-        //             {
-        //                 type: "image/png",
-        //                 uri: "?"
-        //             },
-        //         ]
-        //     },
-        //     creators: []
-        // };
-        // const myUri = ???
-        // console.log("Your metadata URI: ", myUri);
+
+        const irysURI = "https://gateway.irys.xyz/EWpvabPTkA3xMuaFws9jeJTphvB6TA39sw8vL2qF9QpY".replace(
+            "https://arwaeve.net/",
+            "https://devnet.irys.xyz/"
+        );
+
+        console.log("Your Image URI:", irysURI);
+
+        const image = irysURI;
+        const metadata = {
+            name: "Bharti General Store",
+            symbol: "BGS",
+            description: "MY Stationary Shop !",
+            image: image,
+            attributes: [
+                {trait_type: 'unique', value: '1'}
+            ],
+            properties: {
+                files: [
+                    {
+                        type: "image/png",
+                        uri: "image"
+                    },
+                ]
+            },
+            creators: []
+        };
+        const myUri = await umi.uploader.uploadJson(metadata);
+        console.log("Your metadata URI: ", myUri);
     }
     catch(error) {
         console.log("Oops.. Something went wrong", error);
     }
 })();
+
+//Your Image URI: https://gateway.irys.xyz/7pyWpLDwdZtv259z6qwGFqkFGJRkfNuNAUMxQJfTjKLm
+//Your metadata URI:  https://gateway.irys.xyz/4z45R41Ampj1rAXyzAqdW516wqcA2Sf7MGRJBpvxzLCt
+
+//BGS
+// Your Image URI: https://gateway.irys.xyz/EWpvabPTkA3xMuaFws9jeJTphvB6TA39sw8vL2qF9QpY
+// Your metadata URI:  https://gateway.irys.xyz/Au1c5wh787R6AU7Fg3tTMwx8eXbmi2PkLwajJ3GBBPMi
