@@ -1,0 +1,6 @@
+[submodule "solana_starter"]
+	path = solana_starter
+	url = https://github.com/ankitdhadiwal/solana_starter
+[submodule "prerequisites_turbin3"]
+	path = prerequisites_turbin3
+	url = https://github.com/ankitdhadiwal/prerequisites_turbin3
