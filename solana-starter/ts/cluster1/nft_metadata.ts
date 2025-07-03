@@ -18,7 +18,7 @@ umi.use(signerIdentity(signer));
         // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 
 
-        const irysURI = "https://gateway.irys.xyz/EWpvabPTkA3xMuaFws9jeJTphvB6TA39sw8vL2qF9QpY".replace(
+        const irysURI = "https://gateway.irys.xyz/E7MzcySC71UkJNE9xKkP1GAEcUWtLHp6yybpaVGYzmaT".replace(
             "https://arwaeve.net/",
             "https://devnet.irys.xyz/"
         );
@@ -27,9 +27,9 @@ umi.use(signerIdentity(signer));
 
         const image = irysURI;
         const metadata = {
-            name: "Bharti General Store",
-            symbol: "BGS",
-            description: "MY Stationary Shop !",
+            name: "Pineapple Rug NFT",
+            symbol: "PAL",
+            description: "This is the rug day nft !",
             image: image,
             attributes: [
                 {trait_type: 'unique', value: '1'}

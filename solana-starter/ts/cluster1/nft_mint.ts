@@ -18,10 +18,10 @@ const mint = generateSigner(umi);
 (async () => {
     let tx = createNft(umi, {
         mint,
-        name: "Bharti General Store",
-        symbol: "BGS",
-        uri: "https://gateway.irys.xyz/Au1c5wh787R6AU7Fg3tTMwx8eXbmi2PkLwajJ3GBBPMi",
-        sellerFeeBasisPoints: percentAmount(5)
+        name: "Pineapple Rug Day",
+        symbol: "PAL",
+        uri: "https://gateway.irys.xyz/yRkr5WWxLGZoKec84AHGuKm6g5UgLM5LB3ZCNArnUKf",
+        sellerFeeBasisPoints: percentAmount(10)
     });
     let result = await tx.sendAndConfirm(umi);
     const signature = base58.encode(result.signature);
