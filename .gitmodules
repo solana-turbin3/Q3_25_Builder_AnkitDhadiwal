@@ -4,3 +4,6 @@
 [submodule "prerequisites_turbin3"]
 	path = prerequisites_turbin3
 	url = https://github.com/ankitdhadiwal/prerequisites_turbin3
+[submodule "vault"]
+	path = vault
+	url = https://github.com/ankitdhadiwal/vault
