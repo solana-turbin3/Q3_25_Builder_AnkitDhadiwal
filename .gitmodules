@@ -10,3 +10,6 @@
 [submodule "vault1"]
 	path = vault1
 	url = https://github.com/ankitdhadiwal/vault
+[submodule "amm"]
+	path = amm
+	url = https://github.com/ankitdhadiwal/amm
